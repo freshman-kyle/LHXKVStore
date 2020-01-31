@@ -1,0 +1,6 @@
+framework module Pods_LHXKVDemo {
+  umbrella header "Pods-LHXKVDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

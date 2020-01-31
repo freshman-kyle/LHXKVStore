@@ -1,0 +1,6 @@
+framework module Pods_LHXKVStore_LHXKVStoreTests {
+  umbrella header "Pods-LHXKVStore-LHXKVStoreTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

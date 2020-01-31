@@ -3,13 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		304D266823C1DD8400A3DDC0 /* LHXKVStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304D265E23C1DD8400A3DDC0 /* LHXKVStore.framework */; };
 		304D266D23C1DD8400A3DDC0 /* LHXKVStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 304D266C23C1DD8400A3DDC0 /* LHXKVStoreTests.m */; };
 		304D266F23C1DD8400A3DDC0 /* LHXKVStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 304D266123C1DD8400A3DDC0 /* LHXKVStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		304D267A23C1DF8000A3DDC0 /* LHXKVStoreInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 304D267823C1DF8000A3DDC0 /* LHXKVStoreInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		304D267B23C1DF8000A3DDC0 /* LHXKVStoreInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 304D267923C1DF8000A3DDC0 /* LHXKVStoreInterface.m */; };
+		304D268423C1E08600A3DDC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 304D268323C1E08600A3DDC0 /* AppDelegate.m */; };
+		304D268723C1E08600A3DDC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304D268623C1E08600A3DDC0 /* ViewController.m */; };
+		304D268923C1E08900A3DDC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304D268823C1E08900A3DDC0 /* Assets.xcassets */; };
+		304D268C23C1E08900A3DDC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304D268A23C1E08900A3DDC0 /* Main.storyboard */; };
+		304D268F23C1E08900A3DDC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 304D268E23C1E08900A3DDC0 /* main.m */; };
+		304D269623C1E60500A3DDC0 /* LHXKVStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304D265E23C1DD8400A3DDC0 /* LHXKVStore.framework */; };
+		748C3A60D1591125554FDA80 /* Pods_LHXKVStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4581BB7AC95A70F90E81E5F7 /* Pods_LHXKVStore.framework */; };
+		9B596160F304B6C1AD1BFA47 /* Pods_LHXKVStore_LHXKVStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A207CDAEC55C1353419BFFA /* Pods_LHXKVStore_LHXKVStoreTests.framework */; };
+		E37387049357703D3F5C8749 /* Pods_LHXKVDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BE003BDCBFE013CDCC8881 /* Pods_LHXKVDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,15 +31,43 @@
 			remoteGlobalIDString = 304D265D23C1DD8400A3DDC0;
 			remoteInfo = LHXKVStore;
 		};
+		304D269423C1E5FC00A3DDC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 304D265523C1DD8400A3DDC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 304D265D23C1DD8400A3DDC0;
+			remoteInfo = LHXKVStore;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10BE003BDCBFE013CDCC8881 /* Pods_LHXKVDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHXKVDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB579EBC6224CF4AD07EFD1 /* Pods-LHXKVStore-LHXKVStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHXKVStore-LHXKVStoreTests.release.xcconfig"; path = "Target Support Files/Pods-LHXKVStore-LHXKVStoreTests/Pods-LHXKVStore-LHXKVStoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		304D265E23C1DD8400A3DDC0 /* LHXKVStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LHXKVStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		304D266123C1DD8400A3DDC0 /* LHXKVStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHXKVStore.h; sourceTree = "<group>"; };
 		304D266223C1DD8400A3DDC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		304D266723C1DD8400A3DDC0 /* LHXKVStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHXKVStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		304D266C23C1DD8400A3DDC0 /* LHXKVStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHXKVStoreTests.m; sourceTree = "<group>"; };
 		304D266E23C1DD8400A3DDC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304D267823C1DF8000A3DDC0 /* LHXKVStoreInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHXKVStoreInterface.h; sourceTree = "<group>"; };
+		304D267923C1DF8000A3DDC0 /* LHXKVStoreInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHXKVStoreInterface.m; sourceTree = "<group>"; };
+		304D268023C1E08600A3DDC0 /* LHXKVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHXKVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304D268223C1E08600A3DDC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		304D268323C1E08600A3DDC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		304D268523C1E08600A3DDC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		304D268623C1E08600A3DDC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		304D268823C1E08900A3DDC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		304D268B23C1E08900A3DDC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		304D268D23C1E08900A3DDC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304D268E23C1E08900A3DDC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		304D269023C1E08900A3DDC0 /* LHXKVDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LHXKVDemo.entitlements; sourceTree = "<group>"; };
+		4581BB7AC95A70F90E81E5F7 /* Pods_LHXKVStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHXKVStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A207CDAEC55C1353419BFFA /* Pods_LHXKVStore_LHXKVStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHXKVStore_LHXKVStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4A42B811008D2CB256FC81 /* Pods-LHXKVDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHXKVDemo.release.xcconfig"; path = "Target Support Files/Pods-LHXKVDemo/Pods-LHXKVDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9D48C29586D78AAD728D082E /* Pods-LHXKVStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHXKVStore.release.xcconfig"; path = "Target Support Files/Pods-LHXKVStore/Pods-LHXKVStore.release.xcconfig"; sourceTree = "<group>"; };
+		C192092E587F7551C6118CAC /* Pods-LHXKVDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHXKVDemo.debug.xcconfig"; path = "Target Support Files/Pods-LHXKVDemo/Pods-LHXKVDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F77011F9A9DB0660752F4FD4 /* Pods-LHXKVStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHXKVStore.debug.xcconfig"; path = "Target Support Files/Pods-LHXKVStore/Pods-LHXKVStore.debug.xcconfig"; sourceTree = "<group>"; };
+		FE31CF0AADE7571B8D787971 /* Pods-LHXKVStore-LHXKVStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHXKVStore-LHXKVStoreTests.debug.xcconfig"; path = "Target Support Files/Pods-LHXKVStore-LHXKVStoreTests/Pods-LHXKVStore-LHXKVStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748C3A60D1591125554FDA80 /* Pods_LHXKVStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +84,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				304D266823C1DD8400A3DDC0 /* LHXKVStore.framework in Frameworks */,
+				9B596160F304B6C1AD1BFA47 /* Pods_LHXKVStore_LHXKVStoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304D267D23C1E08600A3DDC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304D269623C1E60500A3DDC0 /* LHXKVStore.framework in Frameworks */,
+				E37387049357703D3F5C8749 /* Pods_LHXKVDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +103,12 @@
 		304D265423C1DD8400A3DDC0 = {
 			isa = PBXGroup;
 			children = (
+				304D268123C1E08600A3DDC0 /* LHXKVDemo */,
 				304D266023C1DD8400A3DDC0 /* LHXKVStore */,
 				304D266B23C1DD8400A3DDC0 /* LHXKVStoreTests */,
 				304D265F23C1DD8400A3DDC0 /* Products */,
+				A1CB78D66DD46A56B1E8CA2E /* Pods */,
+				6DDAF768FB3E81FFE37E0B72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +117,7 @@
 			children = (
 				304D265E23C1DD8400A3DDC0 /* LHXKVStore.framework */,
 				304D266723C1DD8400A3DDC0 /* LHXKVStoreTests.xctest */,
+				304D268023C1E08600A3DDC0 /* LHXKVDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +127,8 @@
 			children = (
 				304D266123C1DD8400A3DDC0 /* LHXKVStore.h */,
 				304D266223C1DD8400A3DDC0 /* Info.plist */,
+				304D267823C1DF8000A3DDC0 /* LHXKVStoreInterface.h */,
+				304D267923C1DF8000A3DDC0 /* LHXKVStoreInterface.m */,
 			);
 			path = LHXKVStore;
 			sourceTree = "<group>";
@@ -86,6 +142,45 @@
 			path = LHXKVStoreTests;
 			sourceTree = "<group>";
 		};
+		304D268123C1E08600A3DDC0 /* LHXKVDemo */ = {
+			isa = PBXGroup;
+			children = (
+				304D268223C1E08600A3DDC0 /* AppDelegate.h */,
+				304D268323C1E08600A3DDC0 /* AppDelegate.m */,
+				304D268523C1E08600A3DDC0 /* ViewController.h */,
+				304D268623C1E08600A3DDC0 /* ViewController.m */,
+				304D268823C1E08900A3DDC0 /* Assets.xcassets */,
+				304D268A23C1E08900A3DDC0 /* Main.storyboard */,
+				304D268D23C1E08900A3DDC0 /* Info.plist */,
+				304D268E23C1E08900A3DDC0 /* main.m */,
+				304D269023C1E08900A3DDC0 /* LHXKVDemo.entitlements */,
+			);
+			path = LHXKVDemo;
+			sourceTree = "<group>";
+		};
+		6DDAF768FB3E81FFE37E0B72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10BE003BDCBFE013CDCC8881 /* Pods_LHXKVDemo.framework */,
+				4581BB7AC95A70F90E81E5F7 /* Pods_LHXKVStore.framework */,
+				6A207CDAEC55C1353419BFFA /* Pods_LHXKVStore_LHXKVStoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1CB78D66DD46A56B1E8CA2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C192092E587F7551C6118CAC /* Pods-LHXKVDemo.debug.xcconfig */,
+				8F4A42B811008D2CB256FC81 /* Pods-LHXKVDemo.release.xcconfig */,
+				F77011F9A9DB0660752F4FD4 /* Pods-LHXKVStore.debug.xcconfig */,
+				9D48C29586D78AAD728D082E /* Pods-LHXKVStore.release.xcconfig */,
+				FE31CF0AADE7571B8D787971 /* Pods-LHXKVStore-LHXKVStoreTests.debug.xcconfig */,
+				1DB579EBC6224CF4AD07EFD1 /* Pods-LHXKVStore-LHXKVStoreTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +188,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304D267A23C1DF8000A3DDC0 /* LHXKVStoreInterface.h in Headers */,
 				304D266F23C1DD8400A3DDC0 /* LHXKVStore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 304D267223C1DD8400A3DDC0 /* Build configuration list for PBXNativeTarget "LHXKVStore" */;
 			buildPhases = (
+				56568DC6BD47A519518053E5 /* [CP] Check Pods Manifest.lock */,
 				304D265923C1DD8400A3DDC0 /* Headers */,
 				304D265A23C1DD8400A3DDC0 /* Sources */,
 				304D265B23C1DD8400A3DDC0 /* Frameworks */,
@@ -122,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 304D267523C1DD8400A3DDC0 /* Build configuration list for PBXNativeTarget "LHXKVStoreTests" */;
 			buildPhases = (
+				9CCCC81198100356557F14B1 /* [CP] Check Pods Manifest.lock */,
 				304D266323C1DD8400A3DDC0 /* Sources */,
 				304D266423C1DD8400A3DDC0 /* Frameworks */,
 				304D266523C1DD8400A3DDC0 /* Resources */,
+				65D02F8AE06214D68525FAEA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +234,25 @@
 			productName = LHXKVStoreTests;
 			productReference = 304D266723C1DD8400A3DDC0 /* LHXKVStoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		304D267F23C1E08600A3DDC0 /* LHXKVDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 304D269123C1E08900A3DDC0 /* Build configuration list for PBXNativeTarget "LHXKVDemo" */;
+			buildPhases = (
+				7799724FAE6BE78765B1E3F9 /* [CP] Check Pods Manifest.lock */,
+				304D267C23C1E08600A3DDC0 /* Sources */,
+				304D267D23C1E08600A3DDC0 /* Frameworks */,
+				304D267E23C1E08600A3DDC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				304D269523C1E5FC00A3DDC0 /* PBXTargetDependency */,
+			);
+			name = LHXKVDemo;
+			productName = LHXKVDemo;
+			productReference = 304D268023C1E08600A3DDC0 /* LHXKVDemo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -149,6 +267,9 @@
 						CreatedOnToolsVersion = 11.3;
 					};
 					304D266623C1DD8400A3DDC0 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					304D267F23C1E08600A3DDC0 = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -166,6 +287,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				304D267F23C1E08600A3DDC0 /* LHXKVDemo */,
 				304D265D23C1DD8400A3DDC0 /* LHXKVStore */,
 				304D266623C1DD8400A3DDC0 /* LHXKVStoreTests */,
 			);
@@ -187,13 +309,109 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		304D267E23C1E08600A3DDC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304D268923C1E08900A3DDC0 /* Assets.xcassets in Resources */,
+				304D268C23C1E08900A3DDC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56568DC6BD47A519518053E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LHXKVStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D02F8AE06214D68525FAEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LHXKVStore-LHXKVStoreTests/Pods-LHXKVStore-LHXKVStoreTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LHXKVStore-LHXKVStoreTests/Pods-LHXKVStore-LHXKVStoreTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LHXKVStore-LHXKVStoreTests/Pods-LHXKVStore-LHXKVStoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7799724FAE6BE78765B1E3F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LHXKVDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CCCC81198100356557F14B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LHXKVStore-LHXKVStoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		304D265A23C1DD8400A3DDC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304D267B23C1DF8000A3DDC0 /* LHXKVStoreInterface.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +423,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		304D267C23C1E08600A3DDC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304D268723C1E08600A3DDC0 /* ViewController.m in Sources */,
+				304D268F23C1E08900A3DDC0 /* main.m in Sources */,
+				304D268423C1E08600A3DDC0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,7 +441,23 @@
 			target = 304D265D23C1DD8400A3DDC0 /* LHXKVStore */;
 			targetProxy = 304D266923C1DD8400A3DDC0 /* PBXContainerItemProxy */;
 		};
+		304D269523C1E5FC00A3DDC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 304D265D23C1DD8400A3DDC0 /* LHXKVStore */;
+			targetProxy = 304D269423C1E5FC00A3DDC0 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		304D268A23C1E08900A3DDC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				304D268B23C1E08900A3DDC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		304D267023C1DD8400A3DDC0 /* Debug */ = {
@@ -333,6 +577,7 @@
 		};
 		304D267323C1DD8400A3DDC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77011F9A9DB0660752F4FD4 /* Pods-LHXKVStore.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -348,6 +593,9 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = leopold.LHXKVStore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -356,6 +604,7 @@
 		};
 		304D267423C1DD8400A3DDC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D48C29586D78AAD728D082E /* Pods-LHXKVStore.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -371,6 +620,9 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = leopold.LHXKVStore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -379,6 +631,7 @@
 		};
 		304D267623C1DD8400A3DDC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE31CF0AADE7571B8D787971 /* Pods-LHXKVStore-LHXKVStoreTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -396,6 +649,7 @@
 		};
 		304D267723C1DD8400A3DDC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB579EBC6224CF4AD07EFD1 /* Pods-LHXKVStore-LHXKVStoreTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -407,6 +661,48 @@
 					"@loader_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = leopold.LHXKVStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		304D269223C1E08900A3DDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C192092E587F7551C6118CAC /* Pods-LHXKVDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LHXKVDemo/LHXKVDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MH5NLE9RXJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LHXKVDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = leopold.LHXKVDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		304D269323C1E08900A3DDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4A42B811008D2CB256FC81 /* Pods-LHXKVDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LHXKVDemo/LHXKVDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MH5NLE9RXJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LHXKVDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = leopold.LHXKVDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -437,6 +733,15 @@
 			buildConfigurations = (
 				304D267623C1DD8400A3DDC0 /* Debug */,
 				304D267723C1DD8400A3DDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		304D269123C1E08900A3DDC0 /* Build configuration list for PBXNativeTarget "LHXKVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304D269223C1E08900A3DDC0 /* Debug */,
+				304D269323C1E08900A3DDC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
