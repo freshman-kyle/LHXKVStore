@@ -336,7 +336,10 @@ static NSString *const DROP_TABLE_SQL = @"DROP TABLE '%@'";
         FMResultSet *rs = [db executeQuery:queryAllSql];
         while ([rs next]) {
             NSString *json = [rs stringForColumn:@"json"];
-            [result addObject:json];
+            id obj = [NSJSONSerialization JSONObjectWithData:[json dataUsingEncoding:NSUTF8StringEncoding] options:(NSJSONReadingAllowFragments) error:nil];
+            if (obj && [obj isKindOfClass:[NSArray class]]) {
+                [result addObject:obj[0]];
+            }
         }
     }];
     return result;
