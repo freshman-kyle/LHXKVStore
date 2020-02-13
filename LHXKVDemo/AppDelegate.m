@@ -7,9 +7,12 @@
 //
 
 #import "AppDelegate.h"
-#import <LHXKVStore/LHXKVStore.h>
+#import "LHXMainViewController.h"
 
 @interface AppDelegate ()
+
+@property (weak) IBOutlet NSWindow *window;
+@property (nonatomic, strong) LHXMainViewController *demoVc;
 
 @end
 
@@ -17,7 +20,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-
+    self.demoVc = [[LHXMainViewController alloc] initWithNibName:@"LHXMainViewController" bundle:nil];
+    self.window.contentView = self.demoVc.view;
 }
 
 
