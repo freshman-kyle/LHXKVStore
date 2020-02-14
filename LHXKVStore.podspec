@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LHXKVStore"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "LHXKVStore for key-value store."
 
   # This description is used to generate tags and improve search results.
