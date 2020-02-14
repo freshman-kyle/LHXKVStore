@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LHXKVStore"
-  spec.version      = "1.0.1"
+  spec.version      = "0.0.1"
   spec.summary      = "LHXKVStore for key-value store."
 
   # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "Apache"
+  spec.license      = "Apache License, Version 2.0"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  #  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+   spec.source_files  = "LHXKVStore/LHXKVStore/*.{h,m}"
   #  spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
