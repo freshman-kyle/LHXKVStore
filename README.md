@@ -1,8 +1,8 @@
 # LHXKVStore
 
-#### 使用说明
+### 使用说明
 
-##### 1.前言
+#### 1.前言
 
 - 本项目采用sqlite3进行存储，通过FMDB操作sqlite
 - 适用于MacOS开发
@@ -10,7 +10,7 @@
 - 提供了demo 
 - 支持cocoapods
 
-#####2.导入
+#### 2.导入
 
 - 通过cocoapods导入
 
@@ -20,7 +20,7 @@ pod 'LHXKVStore'
 
 - 手动导入：将LHXKVStore和FMDB直接拖入工程
 
-##### 3. 使用
+#### 3. 使用
 
 - 导入头文件
 
@@ -82,7 +82,6 @@ LHXKVStoreInterface *kvStore = [LHXKVStoreInterface sharedInstance];
 
 
 
-> 本项目参考了https://github.com/yuantiku/YTKKeyValueStore的实现，在此表示感谢！
+> 本项目参考了https://github.com/yuantiku/YTKKeyValueStore 的实现，在此表示感谢！
 >
 > 有问题欢迎留言~
-
