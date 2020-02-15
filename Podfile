@@ -8,7 +8,7 @@ target 'LHXKVDemo' do
   use_frameworks!
 
   # Pods for LHXKVDemo
-
+  pod 'FMDB'
 end
 
 target 'LHXKVStore' do

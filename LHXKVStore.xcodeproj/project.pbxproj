@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30086FD923F0632900E0B660 /* LHXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30086FD723F0632900E0B660 /* LHXMainViewController.m */; };
+		30086FDA23F0632900E0B660 /* LHXMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30086FD823F0632900E0B660 /* LHXMainViewController.xib */; };
+		3008702023F1657400E0B660 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3008701F23F1657400E0B660 /* MainWindow.xib */; };
+		3008702223F2A63100E0B660 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3008702123F2A63100E0B660 /* AppKit.framework */; };
+		3008702323F2A63F00E0B660 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3008702123F2A63100E0B660 /* AppKit.framework */; };
+		3008702623F3A7FF00E0B660 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3008702523F3A7FF00E0B660 /* image1.jpg */; };
+		3008702F23F401EB00E0B660 /* LHXTableNameInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008702D23F401EB00E0B660 /* LHXTableNameInputViewController.m */; };
+		3008703023F401EB00E0B660 /* LHXTableNameInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3008702E23F401EB00E0B660 /* LHXTableNameInputViewController.xib */; };
+		3008703423F431DE00E0B660 /* LHXTableDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008703223F431DE00E0B660 /* LHXTableDetailViewController.m */; };
+		3008703523F431DE00E0B660 /* LHXTableDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3008703323F431DE00E0B660 /* LHXTableDetailViewController.xib */; };
+		3008703723F446B800E0B660 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3008703623F446B700E0B660 /* image2.jpg */; };
+		3008703923F4F02300E0B660 /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3008703823F4F02300E0B660 /* image0.jpg */; };
+		3008703D23F53DA300E0B660 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3008703A23F53DA200E0B660 /* image1.jpg */; };
+		3008703F23F53DA300E0B660 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3008703C23F53DA300E0B660 /* image2.jpg */; };
+		3008704023F5413D00E0B660 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3008702123F2A63100E0B660 /* AppKit.framework */; };
 		304D266823C1DD8400A3DDC0 /* LHXKVStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304D265E23C1DD8400A3DDC0 /* LHXKVStore.framework */; };
 		304D266D23C1DD8400A3DDC0 /* LHXKVStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 304D266C23C1DD8400A3DDC0 /* LHXKVStoreTests.m */; };
 		304D266F23C1DD8400A3DDC0 /* LHXKVStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 304D266123C1DD8400A3DDC0 /* LHXKVStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		304D267A23C1DF8000A3DDC0 /* LHXKVStoreInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 304D267823C1DF8000A3DDC0 /* LHXKVStoreInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		304D267B23C1DF8000A3DDC0 /* LHXKVStoreInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 304D267923C1DF8000A3DDC0 /* LHXKVStoreInterface.m */; };
 		304D268423C1E08600A3DDC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 304D268323C1E08600A3DDC0 /* AppDelegate.m */; };
-		304D268723C1E08600A3DDC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304D268623C1E08600A3DDC0 /* ViewController.m */; };
 		304D268923C1E08900A3DDC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304D268823C1E08900A3DDC0 /* Assets.xcassets */; };
-		304D268C23C1E08900A3DDC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304D268A23C1E08900A3DDC0 /* Main.storyboard */; };
 		304D268F23C1E08900A3DDC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 304D268E23C1E08900A3DDC0 /* main.m */; };
 		304D269623C1E60500A3DDC0 /* LHXKVStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304D265E23C1DD8400A3DDC0 /* LHXKVStore.framework */; };
 		748C3A60D1591125554FDA80 /* Pods_LHXKVStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4581BB7AC95A70F90E81E5F7 /* Pods_LHXKVStore.framework */; };
@@ -43,6 +56,23 @@
 /* Begin PBXFileReference section */
 		10BE003BDCBFE013CDCC8881 /* Pods_LHXKVDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHXKVDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB579EBC6224CF4AD07EFD1 /* Pods-LHXKVStore-LHXKVStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHXKVStore-LHXKVStoreTests.release.xcconfig"; path = "Target Support Files/Pods-LHXKVStore-LHXKVStoreTests/Pods-LHXKVStore-LHXKVStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		30086F8023ED0FF800E0B660 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		30086FD623F0632900E0B660 /* LHXMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHXMainViewController.h; sourceTree = "<group>"; };
+		30086FD723F0632900E0B660 /* LHXMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHXMainViewController.m; sourceTree = "<group>"; };
+		30086FD823F0632900E0B660 /* LHXMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LHXMainViewController.xib; sourceTree = "<group>"; };
+		3008701F23F1657400E0B660 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		3008702123F2A63100E0B660 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3008702523F3A7FF00E0B660 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		3008702C23F401EB00E0B660 /* LHXTableNameInputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHXTableNameInputViewController.h; sourceTree = "<group>"; };
+		3008702D23F401EB00E0B660 /* LHXTableNameInputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHXTableNameInputViewController.m; sourceTree = "<group>"; };
+		3008702E23F401EB00E0B660 /* LHXTableNameInputViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LHXTableNameInputViewController.xib; sourceTree = "<group>"; };
+		3008703123F431DE00E0B660 /* LHXTableDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHXTableDetailViewController.h; sourceTree = "<group>"; };
+		3008703223F431DE00E0B660 /* LHXTableDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHXTableDetailViewController.m; sourceTree = "<group>"; };
+		3008703323F431DE00E0B660 /* LHXTableDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LHXTableDetailViewController.xib; sourceTree = "<group>"; };
+		3008703623F446B700E0B660 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		3008703823F4F02300E0B660 /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
+		3008703A23F53DA200E0B660 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		3008703C23F53DA300E0B660 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
 		304D265E23C1DD8400A3DDC0 /* LHXKVStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LHXKVStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		304D266123C1DD8400A3DDC0 /* LHXKVStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHXKVStore.h; sourceTree = "<group>"; };
 		304D266223C1DD8400A3DDC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,10 +84,7 @@
 		304D268023C1E08600A3DDC0 /* LHXKVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHXKVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304D268223C1E08600A3DDC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		304D268323C1E08600A3DDC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		304D268523C1E08600A3DDC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		304D268623C1E08600A3DDC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		304D268823C1E08900A3DDC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		304D268B23C1E08900A3DDC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		304D268D23C1E08900A3DDC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		304D268E23C1E08900A3DDC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		304D269023C1E08900A3DDC0 /* LHXKVDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LHXKVDemo.entitlements; sourceTree = "<group>"; };
@@ -75,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3008702323F2A63F00E0B660 /* AppKit.framework in Frameworks */,
 				748C3A60D1591125554FDA80 /* Pods_LHXKVStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3008704023F5413D00E0B660 /* AppKit.framework in Frameworks */,
 				304D266823C1DD8400A3DDC0 /* LHXKVStore.framework in Frameworks */,
 				9B596160F304B6C1AD1BFA47 /* Pods_LHXKVStore_LHXKVStoreTests.framework in Frameworks */,
 			);
@@ -92,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3008702223F2A63100E0B660 /* AppKit.framework in Frameworks */,
 				304D269623C1E60500A3DDC0 /* LHXKVStore.framework in Frameworks */,
 				E37387049357703D3F5C8749 /* Pods_LHXKVDemo.framework in Frameworks */,
 			);
@@ -100,6 +130,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3008702423F3A6B400E0B660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3008703823F4F02300E0B660 /* image0.jpg */,
+				3008702523F3A7FF00E0B660 /* image1.jpg */,
+				3008703623F446B700E0B660 /* image2.jpg */,
+				3008701F23F1657400E0B660 /* MainWindow.xib */,
+				304D268823C1E08900A3DDC0 /* Assets.xcassets */,
+				304D268D23C1E08900A3DDC0 /* Info.plist */,
+				304D268E23C1E08900A3DDC0 /* main.m */,
+				304D269023C1E08900A3DDC0 /* LHXKVDemo.entitlements */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		304D265423C1DD8400A3DDC0 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +181,8 @@
 		304D266B23C1DD8400A3DDC0 /* LHXKVStoreTests */ = {
 			isa = PBXGroup;
 			children = (
+				3008703A23F53DA200E0B660 /* image1.jpg */,
+				3008703C23F53DA300E0B660 /* image2.jpg */,
 				304D266C23C1DD8400A3DDC0 /* LHXKVStoreTests.m */,
 				304D266E23C1DD8400A3DDC0 /* Info.plist */,
 			);
@@ -147,13 +194,16 @@
 			children = (
 				304D268223C1E08600A3DDC0 /* AppDelegate.h */,
 				304D268323C1E08600A3DDC0 /* AppDelegate.m */,
-				304D268523C1E08600A3DDC0 /* ViewController.h */,
-				304D268623C1E08600A3DDC0 /* ViewController.m */,
-				304D268823C1E08900A3DDC0 /* Assets.xcassets */,
-				304D268A23C1E08900A3DDC0 /* Main.storyboard */,
-				304D268D23C1E08900A3DDC0 /* Info.plist */,
-				304D268E23C1E08900A3DDC0 /* main.m */,
-				304D269023C1E08900A3DDC0 /* LHXKVDemo.entitlements */,
+				30086FD623F0632900E0B660 /* LHXMainViewController.h */,
+				30086FD723F0632900E0B660 /* LHXMainViewController.m */,
+				30086FD823F0632900E0B660 /* LHXMainViewController.xib */,
+				3008702C23F401EB00E0B660 /* LHXTableNameInputViewController.h */,
+				3008702D23F401EB00E0B660 /* LHXTableNameInputViewController.m */,
+				3008702E23F401EB00E0B660 /* LHXTableNameInputViewController.xib */,
+				3008703123F431DE00E0B660 /* LHXTableDetailViewController.h */,
+				3008703223F431DE00E0B660 /* LHXTableDetailViewController.m */,
+				3008703323F431DE00E0B660 /* LHXTableDetailViewController.xib */,
+				3008702423F3A6B400E0B660 /* Supporting Files */,
 			);
 			path = LHXKVDemo;
 			sourceTree = "<group>";
@@ -161,6 +211,8 @@
 		6DDAF768FB3E81FFE37E0B72 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3008702123F2A63100E0B660 /* AppKit.framework */,
+				30086F8023ED0FF800E0B660 /* libsqlite3.tbd */,
 				10BE003BDCBFE013CDCC8881 /* Pods_LHXKVDemo.framework */,
 				4581BB7AC95A70F90E81E5F7 /* Pods_LHXKVStore.framework */,
 				6A207CDAEC55C1353419BFFA /* Pods_LHXKVStore_LHXKVStoreTests.framework */,
@@ -243,6 +295,7 @@
 				304D267C23C1E08600A3DDC0 /* Sources */,
 				304D267D23C1E08600A3DDC0 /* Frameworks */,
 				304D267E23C1E08600A3DDC0 /* Resources */,
+				1F7A82C51364CC0FCAAF53A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,6 +359,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3008703F23F53DA300E0B660 /* image2.jpg in Resources */,
+				3008703D23F53DA300E0B660 /* image1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,14 +368,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3008703523F431DE00E0B660 /* LHXTableDetailViewController.xib in Resources */,
+				30086FDA23F0632900E0B660 /* LHXMainViewController.xib in Resources */,
+				3008702623F3A7FF00E0B660 /* image1.jpg in Resources */,
 				304D268923C1E08900A3DDC0 /* Assets.xcassets in Resources */,
-				304D268C23C1E08900A3DDC0 /* Main.storyboard in Resources */,
+				3008703923F4F02300E0B660 /* image0.jpg in Resources */,
+				3008703023F401EB00E0B660 /* LHXTableNameInputViewController.xib in Resources */,
+				3008702023F1657400E0B660 /* MainWindow.xib in Resources */,
+				3008703723F446B800E0B660 /* image2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1F7A82C51364CC0FCAAF53A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LHXKVDemo/Pods-LHXKVDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LHXKVDemo/Pods-LHXKVDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LHXKVDemo/Pods-LHXKVDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		56568DC6BD47A519518053E5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,8 +505,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				304D268723C1E08600A3DDC0 /* ViewController.m in Sources */,
+				3008702F23F401EB00E0B660 /* LHXTableNameInputViewController.m in Sources */,
+				30086FD923F0632900E0B660 /* LHXMainViewController.m in Sources */,
 				304D268F23C1E08900A3DDC0 /* main.m in Sources */,
+				3008703423F431DE00E0B660 /* LHXTableDetailViewController.m in Sources */,
 				304D268423C1E08600A3DDC0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,17 +527,6 @@
 			targetProxy = 304D269423C1E5FC00A3DDC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		304D268A23C1E08900A3DDC0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				304D268B23C1E08900A3DDC0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		304D267023C1DD8400A3DDC0 /* Debug */ = {
@@ -670,12 +739,12 @@
 			baseConfigurationReference = C192092E587F7551C6118CAC /* Pods-LHXKVDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = LHXKVDemo/LHXKVDemo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "LHXKVDemo/Supporting Files/LHXKVDemo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = MH5NLE9RXJ;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = LHXKVDemo/Info.plist;
+				INFOPLIST_FILE = "LHXKVDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -691,12 +760,12 @@
 			baseConfigurationReference = 8F4A42B811008D2CB256FC81 /* Pods-LHXKVDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = LHXKVDemo/LHXKVDemo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "LHXKVDemo/Supporting Files/LHXKVDemo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = MH5NLE9RXJ;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = LHXKVDemo/Info.plist;
+				INFOPLIST_FILE = "LHXKVDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
